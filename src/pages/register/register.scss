@@ -1,0 +1,75 @@
+.register{
+    height: 100vh;
+    background-color: rgb(193, 190, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card {
+        display: flex;
+        background-color: white;
+        width: 50%;
+        border-radius: 10px;
+        min-height: 600px;
+        overflow: hidden;
+    
+        .right{
+            flex: 1;
+            background: linear-gradient(rgba(141, 98, 58, 0.459), rgba(141, 98, 58, 0.459)), url('https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg') center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+
+            h1 {
+                font-size: 100px;
+                line-height: 100px;
+            }
+            p{}
+            span{
+                font-size: 14px;
+            }
+            button{
+                width: 50%;
+                padding: 10px;
+                background-color: white;
+                color: rgb(141, 98, 58);
+                font-weight: bold;
+                border-width: 0px;
+                cursor: pointer;
+            }
+        }
+        .left{
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+            h1{
+                color: rgb(31, 31, 31);
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+                button{
+                width: 50%;
+                padding: 10px;
+                background-color: rgb(141, 98, 58);
+                color: white;
+                font-weight: bold;
+                border: none;
+                cursor: pointer;
+
+                }
+            }
+        }
+    }
+}
